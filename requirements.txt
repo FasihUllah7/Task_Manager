@@ -1,0 +1,14 @@
+# Core dependencies for the Personal Assistant
+streamlit==1.28.1          # Web UI framework for creating interactive apps
+openai==1.3.5              # OpenAI API client for GPT models
+langchain==0.0.350         # Framework for building LLM applications with memory
+langchain-openai==0.0.2    # OpenAI integration for LangChain
+python-dotenv==1.0.0       # Load environment variables from .env file
+
+# Note: The following modules are built into Python and don't need to be installed:
+# - sqlite3 (database operations)
+# - datetime (date and time handling)
+# - json (JSON data handling)
+# - re (regular expressions)
+# - os (operating system interface)
+# - sys (system-specific parameters)
